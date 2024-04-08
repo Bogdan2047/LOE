@@ -1,0 +1,130 @@
+.block-title {
+  display: none;
+}
+.block-choiceTime {
+  width: 100%;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+}
+
+.block-choice-time-item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.block-choice-time {
+  padding-top: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 25%;
+}
+
+.button-next-block {
+  display: block;
+}
+
+.button-next {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 25px;
+  background-color: #343e48;
+  color: #fff;
+  border-radius: 16px;
+  width: 300px;
+  height: 83px;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 700;
+  border-style: none;
+}
+
+.button-next:active {
+  background-color: #ffa300;
+}
+
+@media screen and (max-height: 1000px) {
+  .block-choiceTime {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-height: 900px) {
+  .block-choiceTime {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .block-choiceTime {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .block-title {
+    display: block;
+  }
+
+  .block-choiceTime {
+    width: 100%;
+    height: 700px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .block-choice-time-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .block-choice-time {
+    padding-top: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+  }
+
+  .button-next-block {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .block-choiceTime {
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .block-choice-time {
+    width: 50%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

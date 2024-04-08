@@ -1,0 +1,20 @@
+{
+  "version_project": "v.1.0",
+  "REACT_APP_API_URL": "https://qmate-test.ssi.ua:5001",
+  "REACT_APP_LOCAL_URL": "http://localhost:4005",
+  "REACT_APP_VERIFONE_PRINT_URL": "http://localhost:4005",
+
+  "REACT_APP_TEST_LOGIN": "admin@admin.admin",
+  "REACT_APP_TEST_PASSWORD": "3Qwe*Asd",
+  "BRANCH_ID": "9dfec7f5-83e8-4a52-9678-d6f31bffb235",
+
+  "REACT_APP_ERROR_TIMEOUT": 5000,
+  "REACT_APP_SUCCESS_TICKET_TIMEOUT": 5000,
+  "timeoutPrintRequest": 10000,
+  "REACT_APP_TIMEOUT_PRINT_REQUEST": 10000,
+  "REACT_APP_TIMEOUT_PAGE": 20000,
+  "REACT_APP_TIME_DOWN": 6,
+
+  "NOT_TIME": " НАЖАЛЬ НА СЬОГОДНІ ВЖЕ НЕМА ВІЛЬНОГО ЧАСУ ДЛЯ ВАШОГО ОБСЛУГОВУВАННЯ",
+  "VISIT_WEBSITE": "ЗАПИШІТЬСЯ НА ВІЗИТ ЗА ПОСИЛАННЯМ"
+}

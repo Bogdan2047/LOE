@@ -1,0 +1,788 @@
+.buttonStylesA {
+  width: 600px;
+  height: 160px;
+  border-radius: 30px;
+  background-color: white;
+  border: 4px #ffa300 solid;
+}
+
+.buttonStylesB {
+  width: 300px;
+  height: 160px;
+  border-radius: 30px;
+  background-color: white;
+  border: 4px #ffa300 solid;
+}
+
+.buttonStylesC {
+  border-style: none;
+  width: 300px;
+  height: 83px;
+  border-radius: 16px;
+  background-color: #343e48;
+  color: white;
+  text-align: center;
+}
+
+.buttonStylesA:active {
+  background-color: #ffa300;
+}
+.buttonStylesB:active {
+  background-color: #ffa300;
+}
+
+.buttonStylesC:active {
+  background-color: #ffa300;
+}
+
+.no-time-block {
+  width: 639px;
+  display: flex;
+  justify-content: center;
+}
+
+.font-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+}
+
+.link-size {
+  font-size: 47px;
+  color: #83bd00;
+}
+
+.button-name {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main-space {
+  padding-top: 0;
+}
+
+.main-size-box {
+  height: auto;
+}
+
+.title-item {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+}
+
+.font-for-button {
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+}
+
+.block-title-item {
+  text-align: center;
+}
+
+.font-for-buttonB {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.button-for-choiceTime {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+
+.div-line-for-no-time {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.button-for-choiceItem {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+
+.ticket-block {
+  border: 3px solid black;
+  height: 491px;
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.width-ticket {
+  text-align: center;
+  padding-top: 39px;
+  width: 307px;
+}
+
+.number-ticket {
+  padding-top: 80px;
+}
+
+.number-ticket-title {
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.time-for-ticket {
+  width: 220px;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-for-ticket-font {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+
+.space-for-title-ticket {
+  padding-top: 0;
+}
+
+.space-for-time-ticket {
+  padding-top: 80px;
+}
+
+.block-button-ticket-page {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+
+.print-containerA {
+  display: block;
+  width: 360px;
+  height: 450px;
+  position: absolute;
+  z-index: 5;
+  background-color: #fff;
+  color: rgb(34, 159, 255);
+}
+
+.print-containerB {
+  display: block;
+  width: 360px;
+  height: 450px;
+  position: relative;
+  z-index: 5;
+  background-color: #fff;
+  color: rgb(34, 159, 255);
+}
+
+.error-message-for-print {
+  padding-top: 35px;
+  text-align: center;
+  width: 80%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.space-page-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.space-block-title-item {
+  padding-top: 30px;
+}
+
+.time-for-choice {
+  color: black;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.main-item-block {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.block-title {
+  display: none;
+}
+
+.main-menu-block-button {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-height: 860px) {
+  .ticket-block {
+    border: 3px solid black;
+    height: 450px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .print-containerA {
+    display: block;
+    width: 330px;
+    height: 450px;
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+    color: rgb(34, 159, 255);
+  }
+
+  .div-line-for-no-time {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .font-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+  }
+}
+
+@media screen and (max-height: 820px) {
+  .print-containerA {
+    display: block;
+    width: 330px;
+    height: 360px;
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+    color: rgb(34, 159, 255);
+  }
+
+  .ticket-block {
+    border: 3px solid black;
+    height: 360px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 1238px) {
+  .buttonStylesA {
+    width: 450px;
+    height: 140px;
+    border-radius: 30px;
+    background-color: white;
+    border: 4px #ffa300 solid;
+  }
+
+  .buttonStylesB {
+    width: 220px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: white;
+    border: 4px #ffa300 solid;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .main-menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: flex-start;
+    height: 560px;
+  }
+
+  .main-size-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .main-space {
+    padding-top: 0;
+    flex-basis: 50%;
+  }
+  .block-title {
+    display: none;
+  }
+
+  /* .print-containerA {
+    display: block;
+    width: 330px;
+    height: 380px;
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+    color: rgb(34, 159, 255);
+  } */
+
+  .space-for-title-ticket {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .no-time-block {
+    padding-top: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .print-containerA {
+    display: block;
+    width: 360px;
+    height: 650px;
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+    color: rgb(34, 159, 255);
+  }
+
+  .buttonStylesA {
+    width: 600px;
+    height: 100px;
+    border-radius: 16px;
+    background-color: #ffa300;
+    border-style: none;
+  }
+
+  .main-size-box {
+    height: 846px;
+    overflow: auto;
+  }
+
+  .main-space {
+    padding-top: 45px;
+  }
+
+  .block-title {
+    display: block;
+  }
+
+  .font-for-button {
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+  }
+
+  .buttonStylesB {
+    width: 220px;
+    height: 100px;
+    border-radius: 16px;
+    background-color: #ffa300;
+    border-style: none;
+  }
+
+  .time-for-choice {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .buttonStylesC {
+    border-style: none;
+    width: 380px;
+    height: 100px;
+    border-radius: 16px;
+    background-color: #83bd00;
+    color: white;
+    text-align: center;
+  }
+
+  .ticket-block {
+    border: 3px solid black;
+    height: 691px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .button-for-choiceTime {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 85px;
+  }
+
+  .title-item {
+    font-size: 36px;
+    font-weight: 700;
+    color: #83bd00;
+  }
+
+  .block-title-item {
+    text-align: center;
+    min-height: 100px;
+  }
+
+  .space-for-title-ticket {
+    padding-top: 50px;
+  }
+
+  .font-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .buttonStylesA:active {
+    background-color: #83bd00;
+  }
+
+  .buttonStylesB:active {
+    background-color: #83bd00;
+  }
+
+  .buttonStylesC:active {
+    background-color: #83bd00;
+  }
+
+  .button-name {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .block-button-ticket-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 35px;
+  }
+
+  .main-menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-height: 900px) {
+  .main-menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: flex-start;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .buttonStylesA {
+    width: 450px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: #ffa300;
+    border-style: none;
+  }
+
+  .font-title {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .link-size {
+    font-size: 27px;
+    color: #83bd00;
+  }
+
+  .print-containerA {
+    display: block;
+    width: 360px;
+    height: 650px;
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+    color: rgb(34, 159, 255);
+  }
+
+  .main-space {
+    padding-top: 45px;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .buttonStylesB {
+    width: 150px;
+    height: 100px;
+    border-radius: 16px;
+    background-color: #ffa300;
+    border-style: none;
+  }
+
+  .main-space {
+    padding-top: 45px;
+  }
+
+  .print-containerA {
+    display: block;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+    color: rgb(34, 159, 255);
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .no-time-block {
+    padding-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttonStylesC {
+    border-style: none;
+    width: 280px;
+    height: 80px;
+    border-radius: 16px;
+    background-color: #83bd00;
+    color: white;
+    text-align: center;
+  }
+  .button-name {
+    font-size: 28px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .buttonStylesA {
+    width: 320px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: #ffa300;
+    border-style: none;
+  }
+
+  .main-size-box {
+    height: 375px;
+    max-width: 624px;
+  }
+
+  .main-space {
+    padding-top: 20px;
+  }
+
+  .title-item {
+    font-size: 20px;
+    font-weight: 700;
+    color: #83bd00;
+  }
+
+  .block-title-item {
+    text-align: center;
+    min-height: 40px;
+    padding-bottom: 15px;
+  }
+
+  .font-for-button {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+  }
+
+  .font-for-buttonB {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .buttonStylesB {
+    width: 150px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #ffa300;
+    border-style: none;
+  }
+
+  .button-for-choiceTime {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 35px;
+  }
+
+  .no-time-block {
+    padding-top: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div-line-for-no-time {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .font-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .button-for-choiceItem {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+
+  .ticket-block {
+    border: 3px solid black;
+    height: 280px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .width-ticket {
+    text-align: center;
+    padding-top: 5px;
+    width: 207px;
+  }
+
+  .number-ticket {
+    padding-top: 40px;
+  }
+
+  .number-ticket-title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .space-for-time-ticket {
+    padding-top: 20px;
+  }
+
+  .time-for-ticket {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .time-for-ticket-font {
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .space-for-title-ticket {
+    padding-top: 5px;
+  }
+
+  .block-button-ticket-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .error-message-for-print {
+    padding-top: 20px;
+    text-align: center;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .space-page-title {
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .space-block-title-item {
+    padding-top: 10px;
+  }
+
+  .buttonStylesC {
+    border-style: none;
+    width: 250px;
+    height: 55px;
+    border-radius: 16px;
+    background-color: #83bd00;
+    color: white;
+    text-align: center;
+  }
+
+  .time-for-choice {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .print-containerA {
+    margin-top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+    color: rgb(34, 159, 255);
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .button-for-choiceTime {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .block-button-ticket-page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  .print-containerA {
+    margin-top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+    color: rgb(34, 159, 255);
+  }
+}

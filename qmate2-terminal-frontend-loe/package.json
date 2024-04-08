@@ -1,0 +1,40 @@
+{
+  "name": "q_mate_touch_terminal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@callstack/react-theme-provider": "^3.0.6",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "html-to-image": "^1.11.11",
+    "html2canvas": "^1.4.1",
+    "i18next": "^20.3.1",
+    "i18next-browser-languagedetector": "^6.1.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "moment": "^2.29.1",
+    "npm": "^10.2.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "set PORT=3001 && node gitInfo.js && react-scripts start",
+    "build": "node gitInfo.js && react-scripts build ",
+    "build-dev": "node gitInfo.js && dotenv -e .env.dev react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://qmate1.ssi.ua:5004",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}

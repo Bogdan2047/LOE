@@ -1,0 +1,37 @@
+.block-popup {
+  border: 5px solid #ffa300;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+.popup-text {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 475px) {
+  .block-popup {
+    border: 5px solid #ffa300;
+    width: 310px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  .popup-text {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+  }
+}

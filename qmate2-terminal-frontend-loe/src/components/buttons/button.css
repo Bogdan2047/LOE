@@ -1,0 +1,70 @@
+.button-main {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 25px;
+  background-color: #343e48;
+  color: #fff;
+  border-radius: 16px;
+  width: 300px;
+  height: 83px;
+  text-transform: capitalize;
+  border-style: none;
+}
+
+.title-button-back {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.button-main:active {
+  background-color: #ffa300;
+}
+
+@media screen and (max-width: 900px) {
+  .button-main {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 25px;
+    background-color: #83bd00;
+    color: #fff;
+    border-radius: 16px;
+    width: 220px;
+    height: 100px;
+    text-transform: capitalize;
+  }
+
+  .title-button-back {
+    font-size: 48px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .button-main {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 25px;
+    background-color: #83bd00;
+    color: #fff;
+    font-size: 38px;
+    border-radius: 16px;
+    width: 180px;
+    height: 55px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  .title-button-back {
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
